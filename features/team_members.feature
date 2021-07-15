@@ -1,14 +1,11 @@
 @team
-Feature: A registered user can added a team member
+Feature: A registered user can add a team member
   Background:
-    Given a registered user opens home page in a browser
-    And user clicks Login button
-    And user types in correct email and password in corresponding fields
-    And user moves to user's account by clicking Sign In
+    Given a registered user is successfully logged in
     And user moves to settings menu by clicking on Settings option from left menu
 
 
-  @positive @create
+  @positive
   Scenario: Adding a team member
     Given user moves to team information page by clicking on Team option from left menu
     And user opens a page of new team member data by clicking Add Team Member button

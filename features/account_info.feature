@@ -1,14 +1,11 @@
 @account
 Feature: A registered user can change information the personal account
   Background:
-    Given a registered user opens home page in a browser
-    And user clicks Login button
-    And user types in correct email and password in corresponding fields
-    And user moves to user's account by clicking Sign In
-    And user moved to settings menu by clicking on Settings option from left menu
+    Given a registered user is successfully logged in
+    And user moves to settings menu by clicking on Settings option from left menu
 
 
-  @positive @update
+  @positive
   Scenario: Updating account information
     Given user moves to account information page by clicking on Your Profile option from left menu
     When user clicks Edit button
