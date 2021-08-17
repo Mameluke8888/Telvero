@@ -726,3 +726,72 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1626383102003	geckodriver	INFO	Listening on 127.0.0.1:49605
+1626383102028	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileiVpnGj"
+1626383103282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileiVpnGj/search.json.mozlz4", (void 0)))
+1626383107531	Marionette	INFO	Listening on port 49616
+1626383107661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383120052	Marionette	INFO	Stopped listening on port 49616
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626383121136	geckodriver	INFO	Listening on 127.0.0.1:49747
+1626383121167	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofilenXFfW8"
+1626383122347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofilenXFfW8/search.json.mozlz4", (void 0)))
+1626383125835	Marionette	INFO	Listening on port 49756
+1626383125976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383134345	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626383137780	Marionette	INFO	Stopped listening on port 49756
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626383138840	geckodriver	INFO	Listening on 127.0.0.1:49868
+1626383138861	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofiley9SmyC"
+1626383140117	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofiley9SmyC/search.json.mozlz4", (void 0)))
+1626383143371	Marionette	INFO	Listening on port 49877
+1626383143462	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383155378	Marionette	INFO	Stopped listening on port 49877
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626383156461	geckodriver	INFO	Listening on 127.0.0.1:49986
+1626383157479	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileDgQ82d"
+1626383158592	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileDgQ82d/search.json.mozlz4", (void 0)))
+1626383162289	Marionette	INFO	Listening on port 49997
+1626383162379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383170988	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626383174191	Marionette	INFO	Stopped listening on port 49997
+1626383175250	geckodriver	INFO	Listening on 127.0.0.1:50109
+1626383176264	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileltUOaD"
+1626383177244	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofileltUOaD/search.json.mozlz4", (void 0)))
+1626383180752	Marionette	INFO	Listening on port 50116
+1626383180886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383188955	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626383192467	Marionette	INFO	Stopped listening on port 50116
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626383193564	geckodriver	INFO	Listening on 127.0.0.1:50223
+1626383194584	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofile2Lkm1r"
+1626383195735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/05/wcry_nsd75d7b7txtlwpx6p80000gn/T/rust_mozprofile2Lkm1r/search.json.mozlz4", (void 0)))
+1626383199229	Marionette	INFO	Listening on port 50230
+1626383199312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626383211644	Marionette	INFO	Stopped listening on port 50230
