@@ -14,12 +14,21 @@ class LoginPage:
         self.sign_in_btn = Element(browser, By.XPATH, "//button[contains(text(), 'Sign In')]")
         self.create_account_btn = Element(browser, By.XPATH, "//a[contains(text(), 'Create Account')]")
 
+        self.general_message = Element(browser, By.XPATH, "//div[@class='alert__content']/p")
+
+    # general message xpath=//div[@class='alert__content']/p
+    # message under email field  xpath=//div[2]/div/div[2]/span
+    # message under password field xpath=//div[3]/div/div[2]/span
+
     # Login page methods.
     def verify_login_title_is_visible(self):
         self.login_title.wait_until_visible()
 
     def get_login_title(self):
         self.login_title.get_text()
+
+    def get_general_message(self):
+        self.general_message.get_text()
 
     def enter_email_field(self, email):
         self.email_field.enter_text(email)

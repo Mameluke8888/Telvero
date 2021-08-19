@@ -34,6 +34,6 @@ Feature: User can access his account through login page
     @negative
     Scenario: accessing user's account with empty email field
       Given user clicks Login button on home page
-      When user enters incorrect email address and correct password in the corresponding fields
+      When user leaves email address field empty and enters correct password in the corresponding fields
       And user clicks Sign In button
       Then message under email field "Email field shouldn’t be empty" appears
